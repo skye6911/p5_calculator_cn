@@ -104,11 +104,11 @@ tr:hover td:last-child {
     font-weight: bold;
 }
 
-.wk, .Weak { color: #db2828 !important; }
-.rs, .Resist { color: #2185d0 !important; }
-.nu, .Null { color: #b0b0b0 !important; }
-.rp, .Repel { color: #fbbd08 !important; }
-.ab, .Absorb { color: #21ba45 !important; }
+.wk, .Weak, .弱 { color: #d9534f !important; }
+.rs, .Resist, .耐 { color: #0275d8 !important; }
+.nu, .Null, .無 { color: #55595c !important; }
+.rp, .Repel, .反 { color: #f0ad4e !important; }
+.ab, .Absorb, .吸 { color: #5cb85c !important; }
 
 .left-border {
     border-left: 1px solid rgba(34,36,38,.1) !important;

@@ -4,11 +4,11 @@
 
     <div ng:show='persona.max || persona.item || persona.rare || persona.note || persona.dlc'>
         <h3>Note</h3>
-        <span style='color: red;' ng:show='persona.max'>Social link must be maxed!</span>
+        <span style='color: red;' ng:show='persona.max'>社群必須滿級!</span>
         <span style='color: slateblue;' ng:show='persona.item'>Requires an item from one of Elizabeth's requests!</span>
         <span style='color: slateblue;' ng:show='persona.rare'>This is a rare persona and cannot be fused!</span>
         <span style='color: slateblue;' ng:show='persona.note'>{{persona.note}}</span>
-        <span style='color: slateblue;' ng:show='persona.dlc'>This is a DLC persona!</span>
+        <span style='color: slateblue;' ng:show='persona.dlc'>DLC 人格面具</span>
     </div>
 
     <h3>Stats</h3>

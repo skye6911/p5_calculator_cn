@@ -65,11 +65,11 @@ var skillMap = {
             "Ishtar": 0
         }
     },
-    "Adverse Resolve": {
-        "effect": "Increase critical rate when being ambushed.",
+    "逆境的覺悟": {
+        "effect": "被包圍時造成暴擊攻擊的機率自動上升",
         "element": "被動",
         "personas": {
-            "Arsene": 7,
+            "亞森": 7,
             "Jikokuten": 31,
             "Rakshasa": 30,
             "Raphael": 82,
@@ -141,18 +141,18 @@ var skillMap = {
         "effect": "Increase chance of inflicting all ailments.",
         "element": "被動",
         "personas": {
-            "Dionysus": 63,
+            "狄俄尼索斯": 63,
             "White Rider": 45
         },
-        "talk": "Dionysus"
+        "talk": "狄俄尼索斯"
     },
-    "Ali Dance": {
-        "effect": "Half hit rate of all incoming attacks.",
+    "蟻之舞": {
+        "effect": "攻擊過來的敵人命中率自動減半",
         "element": "被動",
         "personas": {
-            "Futsunushi": 0,
+            "經津主": 0,
             "Gabriel": 79,
-            "Vishnu": 0
+            "毗濕奴": 0
         }
     },
     "Almighty Amp": {
@@ -174,7 +174,7 @@ var skillMap = {
         "effect": "Greatly increase inflicting rate of all status effects under rainy day or special weather warning.",
         "element": "被動",
         "personas": {
-            "Black Ooze": 31,
+            "黑軟泥怪": 31,
             "Black Rider": 60,
             "Mothman": 36,
             "Narcissus": 55,
@@ -199,7 +199,7 @@ var skillMap = {
         "effect": "Cure all ailments of party except for unique status.",
         "element": "回復",
         "personas": {
-            "Dionysus": 66,
+            "狄俄尼索斯": 66,
             "Garuda": 0,
             "Kaguya": 18,
             "Kaguya Picaro": 27,
@@ -221,21 +221,21 @@ var skillMap = {
             "Uriel": 85
         }
     },
-    "Apt Pupil": {
-        "effect": "Increase critical rate.",
+    "建言": {
+        "effect": "造成暴擊攻擊的機率自動上升",
         "element": "被動",
         "personas": {
             "Andras": 13,
             "Ariadne": 0,
             "Ariadne Picaro": 0,
             "Bicorn": 8,
-            "Futsunushi": 80,
+            "經津主": 80,
             "Sudama": 22
         },
         "talk": "Andras"
     },
-    "Arms Master": {
-        "effect": "Half HP cost for physical skills.",
+    "武道的訣竅": {
+        "effect": "自動將技能使用時的HP消耗減半",
         "element": "被動",
         "fuse": "Chi You",
         "personas": {
@@ -249,7 +249,7 @@ var skillMap = {
         "effect": "Deal heavy Phys damage to 1 foe.",
         "element": "物理",
         "personas": {
-            "Anzu": 27,
+            "安祖": 27,
             "Flauros": 29,
             "Koumokuten": 0,
             "Nue": 25,
@@ -305,7 +305,7 @@ var skillMap = {
             "Ariadne Picaro": 43,
             "Asterius": 57,
             "Asura-Ou": 78,
-            "Bugs": 51,
+            "巴古斯": 51,
             "Hope Diamond": 0,
             "King Frost": 64,
             "Shiva": 87,
@@ -343,7 +343,7 @@ var skillMap = {
         "personas": {
             "Ananta": 45,
             "Arahabaki": 0,
-            "Dionysus": 0,
+            "狄俄尼索斯": 0,
             "Pale Rider": 0,
             "Pisaca": 32,
             "Trumpeter": 0,
@@ -432,7 +432,7 @@ var skillMap = {
         "effect": "Inflict Brainwash (medium odds) to all foes.",
         "element": "異常",
         "personas": {
-            "Black Ooze": 34,
+            "黑軟泥怪": 34,
             "Oberon": 0,
             "Vasuki": 0,
             "Yurlungur": 0
@@ -462,10 +462,10 @@ var skillMap = {
         "cost": 24,
         "effect": "Deal grave Phys damage to 1 foe.",
         "element": "物理",
-        "fuse": "Futsunushi",
+        "fuse": "經津主",
         "personas": {
-            "Futsunushi": 82,
-            "Yoshitsune": 0
+            "經津主": 82,
+            "義經": 0
         }
     },
     "Bufu": {
@@ -537,13 +537,13 @@ var skillMap = {
         },
         "unique": "Orpheus"
     },
-    "Cleave": {
+    "斬擊": {
         "cost": 6,
         "effect": "Deal weak Phys damage to 1 foe.",
         "element": "物理",
         "fuse": "Berith",
         "personas": {
-            "Arsene": 2,
+            "亞森": 2,
             "Berith": 0
         },
         "talk": "Berith"
@@ -566,7 +566,7 @@ var skillMap = {
         "personas": {
             "Ardha": 0,
             "Michael": 92,
-            "Satanael": 96
+            "撒坦耶爾": 96
         }
     },
     "Counter": {
@@ -706,9 +706,9 @@ var skillMap = {
         "cost": 1000,
         "effect": "Negate all -kaja buff effects of all foes.",
         "element": "輔助",
-        "fuse": "Anzu",
+        "fuse": "安祖",
         "personas": {
-            "Anzu": 28,
+            "安祖": 28,
             "Flauros": 0,
             "Kumbhanda": 45,
             "Obariyon": 12,
@@ -754,7 +754,7 @@ var skillMap = {
         "effect": "Inflict Fear (high odds) to 1 foe.",
         "element": "異常",
         "personas": {
-            "Black Ooze": 0,
+            "黑軟泥怪": 0,
             "Incubus": 0,
             "Kodama": 13,
             "Nekomata": 0,
@@ -762,7 +762,7 @@ var skillMap = {
             "Slime": 0,
             "White Rider": 0
         },
-        "talk": "Black Ooze"
+        "talk": "黑軟泥怪"
     },
     "Dia": {
         "cost": 300,
@@ -782,7 +782,7 @@ var skillMap = {
         "effect": "Deal severe Ice damage to 1 foe.",
         "element": "冰凍",
         "personas": {
-            "Black Frost": 72,
+            "邪惡霜精": 72,
             "Satan": 0
         }
     },
@@ -1002,13 +1002,13 @@ var skillMap = {
         },
         "talk": "Orthrus"
     },
-    "Dream Needle": {
+    "夢鄉針": {
         "cost": 8,
         "effect": "Deal medium Phys damage and inflict Sleep (medium odds) to 1 foe.",
         "element": "物理",
         "fuse": "Incubus",
         "personas": {
-            "Arsene": 5,
+            "亞森": 5,
             "Phoenix": 0,
             "Inugami": 15,
             "Pisaca": 0
@@ -1040,12 +1040,12 @@ var skillMap = {
         },
         "talk": "Nebiros"
     },
-    "Eiha": {
+    "耶哈": {
         "cost": 400,
         "effect": "Deal weak Curse damage to 1 foe.",
         "element": "咒怨",
         "personas": {
-            "Arsene": 1,
+            "亞森": 1,
             "Incubus": 7,
             "Slime": 11
         }
@@ -1066,7 +1066,7 @@ var skillMap = {
             "Oberon": 72,
             "Odin": 87,
             "Thor": 66,
-            "Yoshitsune": 84
+            "義經": 84
         }
     },
     "Elec Boost": {
@@ -1206,25 +1206,25 @@ var skillMap = {
             "Okuninushi": 47
         }
     },
-    "Evade Physical": {
-        "effect": "Triple evasion rate against Phys attacks.",
+    "極·物理識破": {
+        "effect": "對物理屬性攻擊的迴避率變為3倍,不與識破的效果累積",
         "element": "被動",
         "personas": {
             "Ariadne": 34,
             "Ariadne Picaro": 46,
-            "Bugs": 54,
+            "巴古斯": 54,
             "Zaou-Gongen": 82
         }
     },
-    "Evade Psy": {
-        "effect": "Triple evasion rate against Psy attacks.",
+    "極·念動識破": {
+        "effect": "對念動屬性攻擊的迴避率變為3倍,不與識破的效果累積",
         "element": "被動",
         "personas": {
-            "Forneus": 68
+            "佛鈕司": 68
         }
     },
-    "Evade Wind": {
-        "effect": "Triple evasion rate against Wind attacks.",
+    "極·疾風識破": {
+        "effect": "對疾風屬性攻擊的迴避率變為3倍,不與識破的效果累積",
         "element": "被動",
         "personas": {
             "Raja Naga": 60,
@@ -1244,10 +1244,10 @@ var skillMap = {
         "element": "被動",
         "fuse": "Fortuna",
         "personas": {
-            "Bugs": 55,
+            "巴古斯": 55,
             "Hope Diamond": 0,
             "Odin": 86,
-            "Yoshitsune": 82
+            "義經": 82
         }
     },
     "Fear Boost": {
@@ -1302,11 +1302,11 @@ var skillMap = {
         },
         "talk": "Koropokkuru"
     },
-    "Firm Stance": {
-        "effect": "Half all incoming damage by sacrificing evasion completely.",
+    "不動如山": {
+        "effect": "將敵方的攻擊自動變為必中但傷害減半",
         "element": "被動",
         "personas": {
-            "Futsunushi": 81,
+            "經津主": 81,
             "Mara": 78,
             "Messiah Picaro": 94,
             "Ongyo-Ki": 79
@@ -1318,7 +1318,7 @@ var skillMap = {
         "element": "物理",
         "fuse": "Jatayu",
         "personas": {
-            "Black Ooze": 35,
+            "黑軟泥怪": 35,
             "Black Rider": 0,
             "Jatayu": 0
         }
@@ -1427,7 +1427,7 @@ var skillMap = {
         "element": "疾風",
         "fuse": "Matador",
         "personas": {
-            "Anzu": 0,
+            "安祖": 0,
             "Fuu-Ki": 0,
             "Isis": 30,
             "Jatayu": 0,
@@ -1563,14 +1563,14 @@ var skillMap = {
         },
         "talk": "Anubis"
     },
-    "Hassou Tobi": {
+    "八艘跳躍": {
         "cost": 25,
-        "effect": "Deal 8 times weak Phys damage to all foes.",
+        "effect": "給予所有敵人物理屬性的8次小幅傷害",
         "element": "物理",
         "personas": {
-            "Yoshitsune": 86
+            "義經": 86
         },
-        "unique": "Yoshitsune"
+        "unique": "義經"
     },
     "Headbutt": {
         "cost": 9,
@@ -1578,7 +1578,7 @@ var skillMap = {
         "element": "物理",
         "fuse": "Slime",
         "personas": {
-            "Black Ooze": 32,
+            "黑軟泥怪": 32,
             "Slime": 14,
             "Sui-Ki": 0
         }
@@ -1593,7 +1593,7 @@ var skillMap = {
             "Magatsu-Izanagi": 50,
             "Magatsu-Izanagi Picaro": 54,
             "Raphael": 80,
-            "Satanael": 97
+            "撒坦耶爾": 97
         }
     },
     "Heat Up": {
@@ -1612,7 +1612,7 @@ var skillMap = {
         "effect": "Deal heavy Phys damage to all foes.",
         "element": "物理",
         "personas": {
-            "Dionysus": 0,
+            "狄俄尼索斯": 0,
             "Garuda": 0,
             "Kurama Tengu": 0,
             "Oberon": 0,
@@ -1673,7 +1673,7 @@ var skillMap = {
         "effect": "Strengthen Ice attacks by 50%.",
         "element": "被動",
         "personas": {
-            "Black Frost": 70,
+            "邪惡霜精": 70,
             "Gabriel": 82,
             "King Frost": 67,
             "Mother Harlot": 82
@@ -1731,8 +1731,8 @@ var skillMap = {
             "Surt": 64
         }
     },
-    "Insta-Heal": {
-        "effect": "Recover from an ailment in 1 turn.",
+    "瞬間恢復": {
+        "effect": "自動將異常狀態恢復所需回合數變為1回合",
         "element": "被動",
         "personas": {
             "Ishtar": 87,
@@ -1868,8 +1868,8 @@ var skillMap = {
         "element": "冰凍",
         "fuse": "Gabriel, Lilith",
         "personas": {
-            "Black Frost": 0,
-            "Crystal Skull": 0,
+            "邪惡霜精": 0,
+            "水晶骷髏": 0,
             "Gabriel": 0,
             "Lilith": 0,
             "Michael": 0,
@@ -1916,10 +1916,10 @@ var skillMap = {
         "personas": {
             "Beelzebub": 0,
             "Black Rider": 0,
-            "Crystal Skull": 0,
+            "水晶骷髏": 0,
             "Mara": 76,
             "Nebiros": 64,
-            "Satanael": 0,
+            "撒坦耶爾": 0,
             "Thanatos": 0,
             "Thanatos Picaro": 0
         },
@@ -1955,7 +1955,7 @@ var skillMap = {
         "personas": {
             "Asura-Ou": 79,
             "Bishamonten": 69,
-            "Crystal Skull": 0,
+            "水晶骷髏": 0,
             "Titania": 58,
             "Trumpeter": 0
         }
@@ -1990,13 +1990,13 @@ var skillMap = {
         "element": "疾風",
         "personas": {
             "Baal": 0,
-            "Crystal Skull": 0,
+            "水晶骷髏": 0,
             "Garuda": 57,
             "Kurama Tengu": 60,
             "Lilith": 62,
             "Magatsu-Izanagi Picaro": 49,
             "Quetzalcoatl": 67,
-            "Vishnu": 0
+            "毗濕奴": 0
         },
         "talk": "Baal"
     },
@@ -2132,7 +2132,7 @@ var skillMap = {
         "element": "祝福",
         "fuse": "Dominion",
         "personas": {
-            "Crystal Skull": 0,
+            "水晶骷髏": 0,
             "Cybele": 0,
             "Dominion": 70,
             "Metatron": 0,
@@ -2197,13 +2197,13 @@ var skillMap = {
         "effect": "Deal heavy Psy damage to all foes.",
         "element": "念動",
         "personas": {
-            "Crystal Skull": 0,
-            "Forneus": 67,
+            "水晶骷髏": 0,
+            "佛鈕司": 67,
             "Kali": 81,
             "Kohryu": 0,
             "Parvati": 59
         },
-        "talk": "Forneus"
+        "talk": "佛鈕司"
     },
     "Mapsio": {
         "cost": 1600,
@@ -2239,8 +2239,8 @@ var skillMap = {
             "Asterius Picaro": 0,
             "Attis": 0,
             "Belial": 71,
-            "Crystal Skull": 0,
-            "Dionysus": 65,
+            "水晶骷髏": 0,
+            "狄俄尼索斯": 65,
             "Lilith": 65,
             "Mara": 0,
             "Surt": 60,
@@ -2291,12 +2291,12 @@ var skillMap = {
             "Orobas": 19
         }
     },
-    "Marin Karin": {
+    "馬琳卡琳": {
         "cost": 500,
-        "effect": "Inflict Brainwash (high odds) to 1 foe.",
+        "effect": "使1名敵人高機率陷入洗腦狀態",
         "element": "異常",
         "personas": {
-            "Forneus": 0,
+            "佛鈕司": 0,
             "Leanan Sidhe": 20,
             "Mokoi": 11,
             "Nebiros": 0,
@@ -2311,7 +2311,7 @@ var skillMap = {
         "element": "輔助",
         "fuse": "Power",
         "personas": {
-            "Anzu": 0,
+            "安祖": 0,
             "Fortuna": 0,
             "Garuda": 54,
             "Horus": 52,
@@ -2324,14 +2324,14 @@ var skillMap = {
         },
         "talk": "Melchizedek"
     },
-    "Masukunda": {
+    "瑪哈斯坤達": {
         "cost": 2400,
         "effect": "Decrease all foes' Agility for 3 turns.",
         "element": "輔助",
-        "fuse": "Forneus",
+        "fuse": "佛鈕司",
         "personas": {
-            "Bugs": 0,
-            "Forneus": 0,
+            "巴古斯": 0,
+            "佛鈕司": 0,
             "Ganesha": 57,
             "Kurama Tengu": 0,
             "Lilim": 0,
@@ -2346,7 +2346,7 @@ var skillMap = {
         "personas": {
             "Baal": 0,
             "Cu Chulainn": 69,
-            "Futsunushi": 0,
+            "經津主": 0,
             "Jikokuten": 30,
             "Koumokuten": 52,
             "Kushinada-Hime": 44,
@@ -2366,7 +2366,7 @@ var skillMap = {
         "element": "輔助",
         "personas": {
             "Belial": 0,
-            "Black Ooze": 0,
+            "黑軟泥怪": 0,
             "Hanuman": 0,
             "Orpheus Picaro": 0,
             "Queen Mab": 44,
@@ -2392,7 +2392,7 @@ var skillMap = {
         "element": "電擊",
         "personas": {
             "Barong": 57,
-            "Crystal Skull": 0,
+            "水晶骷髏": 0,
             "Gabriel": 0,
             "Ishtar": 88,
             "Magatsu-Izanagi": 45,
@@ -2529,10 +2529,10 @@ var skillMap = {
             "Michael": 91,
             "Mot": 76,
             "Nebiros": 68,
-            "Satanael": 0,
+            "撒坦耶爾": 0,
             "Shiva": 86,
             "Uriel": 84,
-            "Vishnu": 0
+            "毗濕奴": 0
         },
         "talk": "Mot"
     },
@@ -2585,8 +2585,8 @@ var skillMap = {
             "Ara Mitama": 0,
             "Ariadne": 0,
             "Ariadne Picaro": 0,
-            "Black Frost": 0,
-            "Bugs": 0,
+            "邪惡霜精": 0,
+            "巴古斯": 0,
             "Ganesha": 0
         },
         "talk": "Ganesha"
@@ -2743,7 +2743,7 @@ var skillMap = {
         "effect": "Impart immunity against Forget.",
         "element": "被動",
         "personas": {
-            "Anzu": 29
+            "安祖": 29
         }
     },
     "Null Ice": {
@@ -2806,7 +2806,7 @@ var skillMap = {
         "element": "槍械",
         "fuse": "Seth",
         "personas": {
-            "Black Frost": 0,
+            "邪惡霜精": 0,
             "Mara": 0,
             "Seth": 0,
             "Thanatos": 68,
@@ -2867,9 +2867,9 @@ var skillMap = {
         },
         "talk": "Silky"
     },
-    "Charge": {
+    "蓄力": {
         "cost": 1500,
-        "effect": "Multiply user's next Phys attack damage by 2.5.",
+        "effect": "使用後的物理攻擊力僅有1次提升至2倍以上",
         "element": "輔助",
         "fuse": "Cu Chulainn",
         "personas": {
@@ -2878,15 +2878,15 @@ var skillMap = {
             "Baal": 79,
             "Cu Chulainn": 71,
             "Dakini": 55,
-            "Futsunushi": 78,
+            "經津主": 78,
             "Ganesha": 60,
             "Hecatoncheires": 48,
             "Mara": 74,
             "Raphael": 0,
             "Setanta": 34,
             "Siegfried": 70,
-            "Vishnu": 86,
-            "Yoshitsune": 0
+            "毗濕奴": 86,
+            "義經": 0
         }
     },
     "Pressing Stance": {
@@ -2896,7 +2896,7 @@ var skillMap = {
             "Ongyo-Ki": 0,
             "Red Rider": 45,
             "Yatagarasu": 60,
-            "Yoshitsune": 81
+            "義經": 81
         }
     },
     "Psi": {
@@ -2963,16 +2963,16 @@ var skillMap = {
             "Shiva": 0
         }
     },
-    "Psiodyne": {
+    "賽逹因": {
         "cost": 1200,
-        "effect": "Deal heavy Psy damage to 1 foe.",
+        "effect": "給予1名敵人念動屬性的大幅傷害, 對精神異常狀態之敵效果大",
         "element": "念動",
         "fuse": "Parvati",
         "personas": {
-            "Bugs": 0,
-            "Dionysus": 0,
+            "巴古斯": 0,
+            "狄俄尼索斯": 0,
             "Emperor's Amulet": 0,
-            "Forneus": 0,
+            "佛鈕司": 0,
             "Kali": 0,
             "Moloch": 0,
             "Parvati": 0
@@ -3028,15 +3028,15 @@ var skillMap = {
             "Red Rider": 46
         }
     },
-    "Myriad Slashes": {
+    "殺那五月雨斬": {
         "cost": 20,
-        "effect": "Deal 2 to 3 times medium Phys damage to 1 foe.",
+        "effect": "給予1名敵人2~3次物理屬性的中幅傷害",
         "element": "物理",
         "fuse": "Ongyo-Ki",
         "personas": {
             "Belial": 74,
             "Chernobog": 67,
-            "Futsunushi": 0,
+            "經津主": 0,
             "Odin": 0,
             "Ongyo-Ki": 0,
             "Tsukiyomi": 0,
@@ -3157,12 +3157,12 @@ var skillMap = {
             "Koumokuten": 0
         }
     },
-    "Regenerate 3": {
-        "effect": "Recover 6% of max HP each turn in battle.",
+    "大治愈促進": {
+        "effect": "戰鬥中,輪到行動回合時自動回復6%HP",
         "element": "被動",
         "fuse": "Quetzalcoatl",
         "personas": {
-            "Futsunushi": 79,
+            "經津主": 79,
             "Hanuman": 69,
             "Messiah": 82,
             "Ongyo-Ki": 78,
@@ -3193,8 +3193,8 @@ var skillMap = {
         "effect": "Repel Fire attacks.",
         "element": "被動",
         "personas": {
-            "Black Frost": 71,
-            "Vishnu": 87,
+            "邪惡霜精": 71,
+            "毗濕奴": 87,
             "Yamata-no-Orochi": 66
         }
     },
@@ -3371,11 +3371,11 @@ var skillMap = {
         "cost": 24,
         "effect": "Deal severe Gun damage to all foes.",
         "element": "槍械",
-        "fuse": "Vishnu",
+        "fuse": "毗濕奴",
         "personas": {
-            "Satanael": 0,
+            "撒坦耶爾": 0,
             "Shiva": 85,
-            "Vishnu": 90
+            "毗濕奴": 90
         }
     },
     "Rising Slash": {
@@ -3566,15 +3566,15 @@ var skillMap = {
             "Tsukiyomi Picaro": 0
         }
     },
-    "Stagnant Air": {
+    "污穢空氣": {
         "cost": 500,
-        "effect": "Increase susceptibility to all ailments of all foes and allies.",
+        "effect": "使敵我雙方全體更容易陷入異常狀態",
         "element": "萬能",
-        "fuse": "Black Ooze",
+        "fuse": "黑軟泥怪",
         "personas": {
-            "Black Ooze": 0,
+            "黑軟泥怪": 0,
             "Chernobog": 63,
-            "Forneus": 66,
+            "佛鈕司": 66,
             "Kumbhanda": 0,
             "Moloch": 0,
             "Pisaca": 0
@@ -3605,12 +3605,12 @@ var skillMap = {
         },
         "talk": "Sudama"
     },
-    "Sukunda": {
+    "斯坤達": {
         "cost": 800,
         "effect": "Decrease 1 foe's Agility for 3 turns.",
         "element": "輔助",
         "personas": {
-            "Arsene": 4,
+            "亞森": 4,
             "Eligor": 19,
             "Mandrake": 5,
             "Obariyon": 0,
@@ -3619,15 +3619,15 @@ var skillMap = {
         },
         "talk": "Obariyon"
     },
-    "Survival Trick": {
-        "effect": "Survive one instant death attack with 1 HP remaining.",
+    "生還把戲": {
+        "effect": "受到即死效果攻擊時必定自動地以HP1倖存",
         "element": "被動",
         "personas": {
             "Abaddon": 77,
             "Alice": 84,
             "Belial": 70,
-            "Forneus": 65,
-            "Satanael": 0
+            "佛鈕司": 65,
+            "撒坦耶爾": 0
         },
         "talk": "Abaddon"
     },
@@ -3780,10 +3780,10 @@ var skillMap = {
         "cost": 3000,
         "effect": "Increase party's Attack, Defense and Agility for 3 turns. Only usable if the party is being ambushed.",
         "element": "輔助",
-        "fuse": "Dionysus",
+        "fuse": "狄俄尼索斯",
         "personas": {
             "Attis": 0,
-            "Dionysus": 62,
+            "狄俄尼索斯": 62,
             "Mithra": 38
         }
     },
@@ -3839,7 +3839,7 @@ var skillMap = {
         "element": "槍械",
         "fuse": "White Rider",
         "personas": {
-            "Bugs": 52,
+            "巴古斯": 52,
             "Vasuki": 0,
             "White Rider": 0
         }
@@ -3851,7 +3851,7 @@ var skillMap = {
         "personas": {
             "Asura-Ou": 81,
             "Mada": 86,
-            "Satanael": 98,
+            "撒坦耶爾": 98,
             "Yamata-no-Orochi": 69
         }
     },
@@ -3860,7 +3860,7 @@ var skillMap = {
         "effect": "Deal severe Wind damage to all foes.",
         "element": "疾風",
         "personas": {
-            "Vishnu": 85
+            "毗濕奴": 85
         }
     },
     "Vajra Blast": {
@@ -3887,7 +3887,7 @@ var skillMap = {
         "effect": "Recover full HP and SP after a successful battle.",
         "element": "被動",
         "personas": {
-            "Satanael": 99
+            "撒坦耶爾": 99
         }
     },
     "Vorpal Blade": {
@@ -3932,7 +3932,7 @@ var skillMap = {
         "personas": {
             "Garuda": 59,
             "Quetzalcoatl": 68,
-            "Vishnu": 88
+            "毗濕奴": 88
         }
     },
     "Wind Boost": {
@@ -3948,11 +3948,11 @@ var skillMap = {
         "effect": "Negate Wind resistances of all foes.",
         "element": "輔助",
         "personas": {
-            "Anzu": 0,
+            "安祖": 0,
             "Nekomata": 20,
             "Yatagarasu": 61
         },
-        "talk": "Anzu"
+        "talk": "安祖"
     },
     "Wind Wall": {
         "cost": 1800,
@@ -4004,7 +4004,7 @@ var skillMap = {
             "Oberon": 0,
             "Raja Naga": 0,
             "Thor": 0,
-            "Yoshitsune": 0
+            "義經": 0
         },
         "talk": "Barong"
     },
